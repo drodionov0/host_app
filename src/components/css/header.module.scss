@@ -19,3 +19,46 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.navb{
+    flex-direction: row;
+}
+
+.ui_navb{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.link{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    transition: 0.7s;
+    color: rgb(145, 1, 1);
+}
+
+.but{
+    background-color: #DE3C3C;
+    color: white;
+    width: 130px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.but img{
+    margin-left: 10px;
+}
+
+.but:hover img{
+    transition: 0.2s ease 0s;
+    margin-left: 15px;
+}
